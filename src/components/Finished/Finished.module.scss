@@ -1,0 +1,26 @@
+.Finished {
+  padding: 10px 20px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    margin-top: 7px;
+    text-transform: uppercase;
+  }
+
+  ul li i {
+    padding-left: 7px;
+  }
+
+  & .success {
+    color: rgba(73, 238, 6, 0.7);
+  }
+
+  & .error {
+    color: rgba(217, 22, 28, 0.7);
+  }
+}

@@ -1,10 +1,16 @@
 import React from 'react';
+import classes from './App.module.scss';
+import Layout from './hoc/Layout/Layout';
+import Test from './containers/Test/Test';
 
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <Layout>
+      <main className={classes.AppWrapper}>
+        <h1 className={classes.AppTitle}>Test</h1>
+        <Test />
+      </main>
+    </Layout>
   );
 }
 
