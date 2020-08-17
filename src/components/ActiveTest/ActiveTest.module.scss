@@ -1,0 +1,16 @@
+.ActiveTest {
+  padding: 10px 20px;
+
+  & .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+
+    span {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}
